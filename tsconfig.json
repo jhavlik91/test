@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": ["es2020", "dom"],
+        "module": "commonjs",
+        "target": "es2020",
+
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "outDir": "./dist",
+    },
+    "include": ["src/**/*", "scripts/*", "tests/**/*", "playwright.config.ts"],
+}

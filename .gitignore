@@ -1,0 +1,8 @@
+/node_modules
+
+local/
+/.env
+/out
+/report.html
+/test-results
+/playwright-report
