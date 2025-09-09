@@ -1,6 +1,6 @@
 # Playwright Test Automation
 
-This project is a robust, Playwright-based test automation framework designed to handle both E2E (End-to-End) and API testing for web applications. With a focus on scalability and maintainability, it features a highly configurable structure to adapt to any project's needs.
+This project was created as a one-evening demo for interview purposes. It sketches a possible architecture for automated testing, illustrates basic capabilities, and serves as an example rather than a production-ready solution.
 
 ### Project Structure
 
