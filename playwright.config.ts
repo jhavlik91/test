@@ -8,7 +8,7 @@ const traceOptions: {mode: TraceMode; screenshots: boolean; snapshots: boolean} 
 };
 
 const config: PlaywrightTestConfig = {
-    testDir: './tests', // 👈 only use the "tests" folder
+    testDir: './tests',
     timeout: 30_000,
     reporter: [['html', {outputFolder: './playwright-report'}]],
     retries: 1,

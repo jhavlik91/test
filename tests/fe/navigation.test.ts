@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
-import {BASE_URL} from '../src/config';
-import {reference, vyzkumVyvoj, vyvojNaZakazku} from '../src/locators/selectors';
+import {BASE_URL} from '../../src/config';
+import {reference, vyzkumVyvoj, vyvojNaZakazku} from '../../src/locators/selectors';
 
 test.describe('Navigation: Main Menu', () => {
     test.beforeEach(async ({page}) => {
