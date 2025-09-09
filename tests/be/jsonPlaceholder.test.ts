@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test';
-import {getJsonRequest, postJsonRequest, putJsonRequest, deleteJsonRequest} from '../src/utils/apiClient';
-import type {Post} from '../src/types/api';
-import {API_URL} from '../src/config';
+import {getJsonRequest, postJsonRequest, putJsonRequest, deleteJsonRequest} from '../../src/utils/apiClient';
+import type {Post} from '../../src/types/api';
+import {API_URL} from '../../src/config';
 
 test.describe('JSONPlaceholder API', () => {
     test('GET /posts/1 returns a post', {tag: '@api'}, async ({request}) => {
